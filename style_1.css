@@ -1,8 +1,10 @@
-﻿body {
+﻿html, body {
     font-family: Arial,'Times New Roman', Times, serif, sans-serif;
     font-size: 15px;
     line-height: 1.5;
     background-color: white;
+    /*height:100%;
+    margin: 0;*/
 }
 
 /*global*/
@@ -57,10 +59,15 @@ footer {
     header #forLogo, header nav, header nav li {
         float: none;
         text-align: center;
-        wudth: 100%;
+        width: 100%;
     }
 
     header {
         padding-bottom: 20px;
     }
+}
+
+div #test{
+    border:dashed 1px;
+    padding: 20px, 40px, 40px, 40px;
 }
